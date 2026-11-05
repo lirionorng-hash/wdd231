@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Logo da Câmara de Comércio de Curitiba">
+  <rect width="64" height="64" rx="12" fill="#0f2f4a"/>
+  <path d="M32 10 14 22v6h36v-6L32 10z" fill="#f0bd63"/>
+  <rect x="19" y="30" width="5" height="20" fill="#f0bd63"/>
+  <rect x="29.5" y="30" width="5" height="20" fill="#f0bd63"/>
+  <rect x="40" y="30" width="5" height="20" fill="#f0bd63"/>
+  <rect x="14" y="51" width="36" height="4" rx="1" fill="#f0bd63"/>
+</svg>
