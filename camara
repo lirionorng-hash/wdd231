@@ -1,1 +1,4 @@
 
+git add .
+git commit -m "Implementa diretorio da camara S02"
+git push origin main
