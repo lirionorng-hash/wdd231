@@ -1,2 +1,43 @@
-/* Reinicialização leve — autoria do estudante */
-*,*::before,*::after{box-sizing:border-box}html{line-height:1.5;-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%;height:auto;display:block}button,input{font:inherit}a{overflow-wrap:anywhere}h1,h2,h3,p{margin-top:0}button{cursor:pointer}
+
+/* Normalização básica - WDD 231 */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:where(html) {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+:where(body) {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+:where(a) {
+  overflow-wrap: anywhere;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+button {
+  cursor: pointer;
+}
