@@ -1,38 +1,39 @@
-# WDD 231 — S01 Página Inicial do Curso
+# WDD 231 — Projeto S01 + S02
 
-Projeto da página inicial de **Lirionor Nascimento Guimarães**.
+## Estrutura
 
-## Publicação
+- `index.html`: página S01 já preparada anteriormente.
+- `camara/diretorio.html`: página exigida para S02.
+- `camara/estilos/`: normalizar.css, telas-pequenas.css, telas-grandes.css.
+- `camara/scripts/`: menu.js, datas.js, diretorio.js.
+- `camara/dados/membros.json`: 8 membros fictícios, com 7 campos obrigatórios e informações adicionais.
+- `camara/imagens/`: favicon, compartilhamento e 8 imagens distintas de membros.
+- `camara/inicio.html`, `associar.html`, `descobrir.html`: páginas mínimas de navegação, explicitamente marcadas como futuras; sem antecipar o conteúdo das semanas seguintes.
 
-Este projeto é diferente do `wdd131`. Crie ou abra o repositório **wdd231** no GitHub e coloque **os arquivos e subpastas deste ZIP diretamente na raiz**. Não envie a pasta `wdd231_s01_entrega` como subpasta.
+## Publicação sem quebrar a S01
 
-A estrutura é:
+No seu repositório `wdd231`, envie **as pastas e arquivos do interior deste ZIP**, sem criar uma segunda pasta `wdd231`.
 
-- `index.html`
-- `images/logo.svg` e `images/profile.webp`
-- `styles/small.css` e `styles/larger.css`
-- `scripts/navigation.js`, `scripts/date.js`, `scripts/course.js`
+Link para a entrega da S02:
 
-## Ajustes pessoais a conferir
+https://lirionorng-hash.github.io/wdd231/camara/diretorio.html
 
-1. O curso pede que a propriedade `completed` seja verdadeira **apenas para cursos realmente concluídos**. Por não haver confirmação do histórico acadêmico, todos estão marcados `false` em `scripts/course.js`. Altere conforme seu histórico.
-2. Substitua o link geral do LinkedIn no `index.html` por seu perfil, caso tenha.
-3. O link **Chamber** aponta para `chamber/` e **Final** para `final/`, que serão criados nas semanas seguintes. Antes disso, são caminhos reservados.
-4. Verifique se a fotografia existente é a que deseja publicar.
-5. A lista de seis cursos foi elaborada conforme o primeiro certificado descrito nas instruções públicas; confirme com o array oficial do curso caso haja atualizações.
+### Para testar localmente
 
-## Como testar
+Use VS Code → Live Server. O arquivo JSON é carregado por `fetch`; abrir `diretorio.html` diretamente com `file://` bloqueia esse carregamento em vários navegadores.
 
-Abra no VS Code com Live Server. No Chrome, faça auditoria de **Mobile** no Lighthouse (Acessibilidade, Melhores Práticas e SEO precisam ficar acima de 95 segundo a rubrica), CSS Overview para contraste AA e Network para transferência inicial <= 500 kB. Execute a ferramenta oficial de auditoria WDD 231 da Semana 01. Não afirmamos que o Lighthouse foi executado neste pacote.
+### Auditorias ainda necessárias
 
-Para publicar via Git local:
+Execute a auditoria oficial S02, Lighthouse mobile (Acessibilidade, Melhores Práticas e SEO > 95), CSS Overview nível AA e DevTools Network transferência ≤ 500 KB. Estes resultados dependem da página publicada e **não são garantidos apenas por inspeção de código**.
+
+### Dados de demonstração
+
+As empresas e contatos são inventados, conforme a permissão do enunciado. Os links de sites remetem a `https://example.com/` (domínio oficial reservado para exemplos). Substitua por empresas reais e suas URLs se desejar tornar o diretório factual.
+
+## Git com o projeto extraído em seu repositório local
 
 ```bash
 git add .
-git commit -m "Cria pagina inicial WDD 231"
+git commit -m "Implementa diretorio da camara S02"
 git push origin main
 ```
-
-Em Settings > Pages, escolha `Deploy from a branch`, `main`, `/(root)`.
-
-A URL para entregar no Canvas será `https://lirionorng-hash.github.io/wdd231/`, **após** a publicação estar funcional.
