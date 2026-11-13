@@ -1,0 +1,82 @@
+[
+  {
+    "nome": "Araucária Tecnologia",
+    "endereco": "Rua XV de Novembro, 420, Centro, Curitiba - PR",
+    "telefone": "(41) 3000-0101",
+    "site": "https://example.com/",
+    "imagem": "membro-01.webp",
+    "nivel": 3,
+    "descricao": "Soluções digitais para negócios locais",
+    "setor": "tecnologia"
+  },
+  {
+    "nome": "Café do Jardim",
+    "endereco": "Rua Mateus Leme, 1320, Centro Cívico, Curitiba - PR",
+    "telefone": "(41) 3000-0102",
+    "site": "https://example.com/",
+    "imagem": "membro-02.webp",
+    "nivel": 2,
+    "descricao": "Cafeteria e encontros da comunidade",
+    "setor": "alimentação"
+  },
+  {
+    "nome": "Verde Sul Arquitetura",
+    "endereco": "Av. Sete de Setembro, 2100, Rebouças, Curitiba - PR",
+    "telefone": "(41) 3000-0103",
+    "site": "https://example.com/",
+    "imagem": "membro-03.webp",
+    "nivel": 3,
+    "descricao": "Projetos de arquitetura e espaços sustentáveis",
+    "setor": "arquitetura"
+  },
+  {
+    "nome": "Inova Educação",
+    "endereco": "Rua Marechal Deodoro, 760, Centro, Curitiba - PR",
+    "telefone": "(41) 3000-0104",
+    "site": "https://example.com/",
+    "imagem": "membro-04.webp",
+    "nivel": 1,
+    "descricao": "Cursos e formação profissional",
+    "setor": "educação"
+  },
+  {
+    "nome": "Mercado do Bairro",
+    "endereco": "Rua Itupava, 980, Alto da XV, Curitiba - PR",
+    "telefone": "(41) 3000-0105",
+    "site": "https://example.com/",
+    "imagem": "membro-05.webp",
+    "nivel": 2,
+    "descricao": "Alimentos e produtos do cotidiano",
+    "setor": "comércio"
+  },
+  {
+    "nome": "Movimento Saúde",
+    "endereco": "Av. República Argentina, 1450, Água Verde, Curitiba - PR",
+    "telefone": "(41) 3000-0106",
+    "site": "https://example.com/",
+    "imagem": "membro-06.webp",
+    "nivel": 1,
+    "descricao": "Bem-estar e atividades físicas",
+    "setor": "saúde"
+  },
+  {
+    "nome": "Oficina Criativa",
+    "endereco": "Rua Desembargador Motta, 680, Batel, Curitiba - PR",
+    "telefone": "(41) 3000-0107",
+    "site": "https://example.com/",
+    "imagem": "membro-07.webp",
+    "nivel": 3,
+    "descricao": "Design, artes e comunicação",
+    "setor": "design"
+  },
+  {
+    "nome": "Logística Pinhais",
+    "endereco": "Rua João Negrão, 2200, Rebouças, Curitiba - PR",
+    "telefone": "(41) 3000-0108",
+    "site": "https://example.com/",
+    "imagem": "membro-08.webp",
+    "nivel": 1,
+    "descricao": "Transporte e soluções de distribuição",
+    "setor": "logística"
+  }
+]
