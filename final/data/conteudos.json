@@ -1,1 +1,137 @@
-
+[
+  {
+    "id": 1,
+    "titulo": "HTML semântico",
+    "categoria": "HTML",
+    "nivel": "Iniciante",
+    "resumo": "Organize páginas com elementos que descrevem o conteúdo.",
+    "detalhes": "header, main, footer e article melhoram a estrutura e auxiliam a acessibilidade.",
+    "imagem": "images/tema-01.svg"
+  },
+  {
+    "id": 2,
+    "titulo": "Links e navegação",
+    "categoria": "HTML",
+    "nivel": "Iniciante",
+    "resumo": "Crie caminhos claros entre as páginas.",
+    "detalhes": "Use links com textos descritivos e indique qual página está ativa.",
+    "imagem": "images/tema-02.svg"
+  },
+  {
+    "id": 3,
+    "titulo": "Formulários acessíveis",
+    "categoria": "HTML",
+    "nivel": "Intermediário",
+    "resumo": "Colete respostas com rótulos e validação.",
+    "detalhes": "Associe label a input, escolha tipos apropriados e use required quando necessário.",
+    "imagem": "images/tema-03.svg"
+  },
+  {
+    "id": 4,
+    "titulo": "Imagens responsivas",
+    "categoria": "HTML",
+    "nivel": "Intermediário",
+    "resumo": "Exiba imagens adaptadas sem distorcer.",
+    "detalhes": "Declare width e height e use loading lazy em imagens abaixo da primeira dobra.",
+    "imagem": "images/tema-04.svg"
+  },
+  {
+    "id": 5,
+    "titulo": "Metadados e SEO",
+    "categoria": "HTML",
+    "nivel": "Intermediário",
+    "resumo": "Descreva cada página para buscadores e redes sociais.",
+    "detalhes": "Use title, description, author e metadados Open Graph próprios de cada página.",
+    "imagem": "images/tema-05.svg"
+  },
+  {
+    "id": 6,
+    "titulo": "Seletores CSS",
+    "categoria": "CSS",
+    "nivel": "Iniciante",
+    "resumo": "Escolha quais elementos serão estilizados.",
+    "detalhes": "Prefira classes claras e evite seletores excessivamente específicos.",
+    "imagem": "images/tema-06.svg"
+  },
+  {
+    "id": 7,
+    "titulo": "Box model",
+    "categoria": "CSS",
+    "nivel": "Iniciante",
+    "resumo": "Entenda margin, border e padding.",
+    "detalhes": "box-sizing border-box ajuda no cálculo previsível das dimensões.",
+    "imagem": "images/tema-07.svg"
+  },
+  {
+    "id": 8,
+    "titulo": "Flexbox",
+    "categoria": "CSS",
+    "nivel": "Intermediário",
+    "resumo": "Distribua elementos em uma linha ou coluna.",
+    "detalhes": "display flex, gap, justify-content e align-items ajudam a organizar menus.",
+    "imagem": "images/tema-08.svg"
+  },
+  {
+    "id": 9,
+    "titulo": "CSS Grid",
+    "categoria": "CSS",
+    "nivel": "Intermediário",
+    "resumo": "Crie grades de cartões fluidas.",
+    "detalhes": "grid-template-columns com minmax permite colunas que se adaptam à largura.",
+    "imagem": "images/tema-09.svg"
+  },
+  {
+    "id": 10,
+    "titulo": "Media queries",
+    "categoria": "CSS",
+    "nivel": "Intermediário",
+    "resumo": "Altere o layout conforme a largura da tela.",
+    "detalhes": "Verifique também a largura mínima de 320 pixels sem rolagem horizontal.",
+    "imagem": "images/tema-10.svg"
+  },
+  {
+    "id": 11,
+    "titulo": "Variáveis e tipos",
+    "categoria": "JavaScript",
+    "nivel": "Iniciante",
+    "resumo": "Armazene números, textos e valores lógicos.",
+    "detalhes": "const e let permitem definir valores com regras de escopo.",
+    "imagem": "images/tema-11.svg"
+  },
+  {
+    "id": 12,
+    "titulo": "Eventos no DOM",
+    "categoria": "JavaScript",
+    "nivel": "Intermediário",
+    "resumo": "Reaja a cliques, envios e mudanças.",
+    "detalhes": "addEventListener registra ações e permite atualizar a interface.",
+    "imagem": "images/tema-12.svg"
+  },
+  {
+    "id": 13,
+    "titulo": "Métodos de array",
+    "categoria": "JavaScript",
+    "nivel": "Intermediário",
+    "resumo": "Transforme e filtre conjuntos de dados.",
+    "detalhes": "filter seleciona elementos; map transforma; forEach percorre itens.",
+    "imagem": "images/tema-13.svg"
+  },
+  {
+    "id": 14,
+    "titulo": "Fetch e JSON",
+    "categoria": "JavaScript",
+    "nivel": "Avançado",
+    "resumo": "Carregue dados sem recarregar a página.",
+    "detalhes": "Use await fetch em bloco try catch e verifique response.ok.",
+    "imagem": "images/tema-14.svg"
+  },
+  {
+    "id": 15,
+    "titulo": "localStorage e modais",
+    "categoria": "JavaScript",
+    "nivel": "Avançado",
+    "resumo": "Mantenha favoritos e mostre informações em diálogo.",
+    "detalhes": "localStorage armazena preferências; dialog showModal abre uma janela modal acessível.",
+    "imagem": "images/tema-15.svg"
+  }
+]
