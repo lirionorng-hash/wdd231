@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conheça oito atrações, espaços culturais e parques de Curitiba, Paraná, no projeto acadêmico da Câmara de Comércio.">
+  <meta name="author" content="Lirionor Nascimento Guimarães">
+  <title>Sobre Curitiba | Câmara de Comércio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos/sobre.css">
+  <script type="module" src="scripts/sobre.js"></script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="cabecalho">
+    <div class="faixa">
+      <a class="marca" href="inicio.html">Câmara de Comércio <small>Curitiba · Paraná</small></a>
+      <button class="menu-botao" type="button" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
+      <nav aria-label="Navegação principal" id="menu" class="navegacao">
+        <a href="inicio.html">Início</a>
+        <a href="diretorio.html">Diretório</a>
+        <a href="associar.html">Associe-se</a>
+        <a href="sobre.html" aria-current="page">Sobre Curitiba</a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo" class="conteudo">
+    <div class="abertura">
+      <p class="sobretitulo">Conheça nossa cidade</p>
+      <h1>Curitiba: cultura, natureza e oportunidades</h1>
+      <p>Uma amostra de atrações que ajudam a contar a história de Curitiba e acolhem moradores, visitantes e empreendedores.</p>
+      <div id="ultima-visita" class="visita" role="status" aria-live="polite"></div>
+    </div>
+    <section aria-labelledby="atracoes-titulo">
+      <h2 id="atracoes-titulo">Oito lugares para conhecer</h2>
+      <p class="legenda">Explore os cartões e descubra alguns dos espaços que dão identidade à capital paranaense.</p>
+      <div id="grade-atracoes" class="grade" aria-live="polite"><p id="aviso">Carregando atrações...</p></div>
+    </section>
+  </main>
+  <footer class="rodape">
+    <div><p>© <span id="ano"></span> Câmara de Comércio de Curitiba · Projeto acadêmico</p><p>Informações de referência: <a href="https://linhaturismo.curitiba.pr.gov.br/atracoes-turisticas" target="_blank" rel="noopener noreferrer">Linha Turismo de Curitiba</a>.</p></div>
+  </footer>
+</body>
+</html>
