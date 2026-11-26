@@ -1,7 +1,5 @@
-OBRIGATÓRIO: desenhe VOCÊ MESMO dois wireframes em PRETO E BRANCO. O enunciado S05 WDD231 proíbe gerar wireframes em HTML por IA.
-1) Faça no papel o wireframe para celular: topo/logo/menu; chamada; categorias; cards em uma coluna; rodapé.
-2) Faça no papel o wireframe para desktop: topo e menu horizontal; chamada com duas colunas; 3 cards lado a lado; rodapé.
-3) Fotografe em boa iluminação e recorte cada foto.
-4) Salve as fotos nesta pasta como mobile.png e desktop.png.
-5) Reenvie tudo ao GitHub e confira imagens carregadas no planejamento.
-As imagens NÃO estão incluídas propositalmente, em respeito à restrição do curso.
+As duas imagens enviadas pelo estudante estão incluídas e ligadas ao HTML.
+mobile.png: esboço para celular.
+desktop.png: esboço para tela ampla.
+Não é necessário usar fotos reais: wireframes são desenhos de estrutura.
+A origem e a autoria das imagens não foram verificadas. Confira as regras de autoria e assistência da disciplina antes da entrega.
